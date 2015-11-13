@@ -1,0 +1,66 @@
+html {
+    width: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+head {
+    height: 15rem;
+    width: 30rem;
+    background-color: red;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background: lightgrey;
+    float: left;
+    display: block;
+}
+
+nav {
+    height: 10rem;
+    width: 100rem;
+    background-color: white;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 5rem;
+}
+
+nav ul li {
+    width: 10rem;
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.image-wrapper {
+    width: 70rem;
+    margin: 0 auto;
+}
+
+.main {
+    width: 35rem;
+    height: 20rem;
+    display: block;
+    background-color: red;
+    float: left;
+}
+
+.float {
+    width: 35rem;
+    height: 20rem;
+    float: left;
+    display: block;
+    background-color: whitesmoke;
+}
