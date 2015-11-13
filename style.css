@@ -3,64 +3,88 @@ html {
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
-}
-
-head {
-    height: 15rem;
-    width: 30rem;
-    background-color: red;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 body {
     width: 100%;
     margin: 0 auto;
-    background: lightgrey;
+    background-color: wjweoirueworuew;
     float: left;
     display: block;
 }
 
+.navdiv {
+    width: 100%;
+    background-image: url(navImage.jpg);
+    height: 600px;
+    color: white;
+    text-align: center;
+}
+
+body h1 {
+    padding: 20px;
+    margin: 0 auto;
+    height: 40px;
+    font-size: 30px;
+    font-weight: 100;
+    display: block;
+    float: left;
+}
+
+.headertext {
+    padding: 100px;
+    font-size: 50px;
+}
+
 nav {
-    height: 10rem;
-    width: 100rem;
-    background-color: white;
+    float: right;
+    height: 100px;
 }
 
 nav ul {
     list-style: none;
     overflow: hidden;
-    padding: 5rem;
+    padding: 10px;
 }
 
 nav ul li {
-    width: 10rem;
+    width: 125px;
     float: left;
 }
 
 nav ul li a {
     display: block;
     width: 100%;
+    text-align: center;
     text-decoration: none;
-    border: 1px solid black;
+    color: white;
+    font-size: 20px;
 }
 
-.image-wrapper {
-    width: 70rem;
+.content-wrapper {
+    width: 100%;
     margin: 0 auto;
 }
 
 .main {
-    width: 35rem;
-    height: 20rem;
-    display: block;
-    background-color: red;
+    width: calc(50%-30px);
+    height: 600px;
+    background-color: #ddd;
     float: left;
+    padding: 15px;
 }
 
 .float {
-    width: 35rem;
-    height: 20rem;
+    width: calc(50%-30px);
+    height: 600px;
     float: left;
-    display: block;
+    padding: 15px;
     background-color: whitesmoke;
+}
+
+.sub-heading {
+    padding: 25px;
+    text-align: center;
+    font-size: 50px;
 }
