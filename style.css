@@ -68,7 +68,7 @@ nav ul li a {
 }
 
 .main {
-    width: calc(50%-30px);
+    width: calc(50% - 30px);
     height: 600px;
     background-color: #ddd;
     float: left;
@@ -76,7 +76,7 @@ nav ul li a {
 }
 
 .float {
-    width: calc(50%-30px);
+    width: calc(50% - 30px);
     height: 600px;
     float: left;
     padding: 15px;
