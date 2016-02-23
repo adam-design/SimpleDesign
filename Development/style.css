@@ -1,0 +1,134 @@
+html {
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    float: left;
+    display: block;
+}
+
+.navdiv {
+    width: 100%;
+    background-image: url(navImage.jpg);
+    height: 600px;
+    color: white;
+    text-align: center;
+}
+
+body h1 {
+    padding: 20px;
+    margin: 0 auto;
+    height: 40px;
+    font-size: 30px;
+    font-weight: 100;
+    display: block;
+    float: left;
+}
+
+.headertext {
+    padding: 100px;
+    font-size: 50px;
+}
+
+nav {
+    float: right;
+    height: 100px;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 10px;
+}
+
+nav ul li {
+    width: 125px;
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* Hover over the navbar! It's a cute shade of purple... for now */
+
+nav ul li a:hover {
+    background-color: mediumpurple;
+    color: black;
+}
+
+
+/* maintains the box shape for the content */
+
+.content-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* aligns all text within the content-wrapper aka the dev and design sections */
+
+.content-wrapper {
+    text-align: center;
+}
+
+.main {
+    width: calc(50% - 30px);
+    height: 600px;
+    background-color: #ddd;
+    float: left;
+    padding: 15px;
+    background-color: bisque
+}
+
+.main-one {
+    width: calc(50% - 30px);
+    height: 600px;
+    background-color: #ddd;
+    float: left;
+    padding: 15px;
+    background-color: lightcoral;
+}
+
+.float {
+    width: calc(50% - 30px);
+    height: 600px;
+    float: left;
+    padding: 15px;
+    background-color: lightcyan;
+}
+
+.float p {
+    text-align: center;
+}
+
+.float-one {
+    width: calc(50% - 30px);
+    height: 600px;
+    float: left;
+    padding: 15px;
+    background-color: lightgoldenrodyellow;
+}
+
+.float-one p {
+    text-align: center;
+}
+
+.sub-heading {
+    padding: 25px;
+    text-align: center;
+    font-size: 50px;
+}
