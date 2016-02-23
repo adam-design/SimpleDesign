@@ -16,7 +16,7 @@ body {
 
 .navdiv {
     width: 100%;
-    height: 600px;
+    height: 450px;
     color: antiquewhite;
     text-align: center;
 }
@@ -94,7 +94,6 @@ nav ul li a:hover {
     background-color: #D30000;
     float: left;
     padding: 15px;
-    background-
 }
 
 .main-one {
@@ -131,7 +130,8 @@ nav ul li a:hover {
 }
 
 .sub-heading {
-    height: padding: 25px;
+    height: 50px;
+    padding: 30px;
     text-align: center;
     font-size: 50px;
     color: #fff;
