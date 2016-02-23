@@ -9,7 +9,7 @@ body {
 body {
     width: 100%;
     margin: 0 auto;
-    background-color: ;
+    background-color: #AD0000;
     float: left;
     display: block;
 }
@@ -91,10 +91,10 @@ nav ul li a:hover {
 .main {
     width: calc(50% - 30px);
     height: 600px;
-    background-color: #ddd;
+    background-color: #D30000;
     float: left;
     padding: 15px;
-    background-color: bisque
+    background-
 }
 
 .main-one {
@@ -103,14 +103,15 @@ nav ul li a:hover {
     background-color: #ddd;
     float: left;
     padding: 15px;
-    background-color: lightcoral;
+    background-color: #530000;
+}
+
+.main-one p {
+    color: white;
 }
 
 .main-one img {
     float: center;
-    margin-left: 30%;
-    padding: 10%;
-    display: block;
 }
 
 .float {
@@ -130,15 +131,11 @@ nav ul li a:hover {
 }
 
 .sub-heading {
-    padding: 25px;
+    height: padding: 25px;
     text-align: center;
     font-size: 50px;
-    background: #67b11c 20px 50% no-repeat;
-    border: 2px solid #000;
-    border-radius: 5px;
     color: #fff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding: 15px 20px 15px 50px;
 }
 
 .header-text p {
@@ -147,6 +144,6 @@ nav ul li a:hover {
 }
 
 footer nav {
-    background-color: goldenrod;
+    background-color: #85000;
     width: 100%;
 }
