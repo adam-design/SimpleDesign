@@ -16,7 +16,7 @@ body {
 
 .navdiv {
     width: 100%;
-    background-image: url(navImage.jpg);
+    background-color: sandybrown;
     height: 600px;
     color: white;
     text-align: center;
@@ -86,21 +86,12 @@ nav ul li a:hover {
 }
 
 .main {
-    width: calc(50% - 30px);
+    width: calc(25% - 30px);
     height: 600px;
     background-color: #ddd;
     float: left;
     padding: 15px;
     background-color: bisque
-}
-
-.main-one {
-    width: calc(50% - 30px);
-    height: 600px;
-    background-color: #ddd;
-    float: left;
-    padding: 15px;
-    background-color: lightcoral;
 }
 
 .float {
@@ -116,7 +107,7 @@ nav ul li a:hover {
 }
 
 .float-one {
-    width: calc(50% - 30px);
+    width: calc(25% - 30px);
     height: 600px;
     float: left;
     padding: 15px;
@@ -131,4 +122,9 @@ nav ul li a:hover {
     padding: 25px;
     text-align: center;
     font-size: 50px;
+}
+
+footer nav {
+    background-color: bisque;
+    width: 100%;
 }

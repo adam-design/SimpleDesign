@@ -149,3 +149,8 @@ nav ul li a:hover {
     text-align: center;
     font-size: 50px;
 }
+
+footer nav {
+    background-color: darkred;
+    width: 100%;
+}
