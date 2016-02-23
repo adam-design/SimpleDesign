@@ -16,7 +16,7 @@ body {
 
 .navdiv {
     width: 100%;
-    background-color: sandybrown;
+    background-color: #FA9232;
     height: 600px;
     color: white;
     text-align: center;
@@ -99,7 +99,7 @@ nav ul li a:hover {
     height: 600px;
     float: left;
     padding: 15px;
-    background-color: lightcyan;
+    background-color: #FFBF81;
 }
 
 .float p {
@@ -111,7 +111,7 @@ nav ul li a:hover {
     height: 600px;
     float: left;
     padding: 15px;
-    background-color: lightgoldenrodyellow;
+    background-color: #FFA858;
 }
 
 .float-one p {
@@ -122,9 +122,10 @@ nav ul li a:hover {
     padding: 25px;
     text-align: center;
     font-size: 50px;
+    background-color: #AC5300;
 }
 
 footer nav {
-    background-color: slateblue;
+    background-color: #DD6F0A;
     width: 100%;
 }
